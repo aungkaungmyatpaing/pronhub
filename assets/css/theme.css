@@ -1,0 +1,287 @@
+/*extra small===========================================================================================================*/
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(49, 49, 49);
+    }
+    .navbar{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        box-sizing: border-box;
+        position:fixed;
+        top:0;
+        left:0;
+    }
+    .navbar_logo{
+        height: 40px;
+    }
+    .logo_container{
+        height: 40px;
+    }
+    .home_page,.contact_page,.log_out,.search_container,.display_block{
+        display: none;
+    }
+    .menu_icon{
+        width:40px;
+        height:40px;
+        color:#fff;
+        line-height:40px;
+        font-size:25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin-right:10px;
+    }
+    .menu_icon:active{
+        width: 40px;
+        height: 40px;
+        color: rgb(214, 214, 214);
+        text-align: center;
+        line-height: 40px;
+        font-size: 26px;
+    }
+    .menu_links{
+        display:none;
+    }
+    .drop_down{
+        width: 250px;
+        height: 500px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 40px;
+    }
+    .search_container_drop_down{
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+    }
+    .search_box_drop_down{
+        width: 210px;
+        font-size: 12px;
+    }
+    .search_button_drop_down:active{
+        cursor: pointer;
+        background-color: rgb(214, 209, 209);
+    }
+    .sign{
+        width: 250px;
+        height: 50px;
+        background-color: rgb(49, 49, 49);
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #fff;
+    }
+    .sign_icon_container{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    .sign_icon_container span{
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Calibri;
+        color:rgb(230, 135, 10);
+        font-weight: bold;
+    }
+    .sign_icon_container:active{
+        font-size: 22px;
+    }
+    .sign_icon_container span:active{
+        font-size: 13px;
+    }
+    .customer_contact{
+        width: 250px;
+        height: 200px;
+        margin-top: 10px;
+        background-color: green;
+    }
+    .get_premium{
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: rgb(230, 135, 10);
+        font-weight: bold;
+        align-items: center;
+    }
+    .live_stream{
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: rgb(230, 135, 10);
+        font-weight: bold;
+        font-family: Calibri;
+        align-items: center;
+    }
+    .save_list{
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: rgb(230, 135, 10);
+        font-weight: bold;
+        font-family: Calibri;
+        align-items: center;
+    }
+    .contact{
+        width: 250px;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        color: rgb(230, 135, 10);
+        font-weight: bold;
+        font-family: Calibri;
+        align-items: center;
+    }
+    .customer_contact span{
+    }
+}
+
+
+/*small================================================================================================================*/
+
+@media only screen and (min-width: 600px) and (max-width:767px) {}
+
+
+/*medium==============================================================================================================*/
+
+@media only screen and (min-width: 768px) and (max-width:991px) {}
+
+
+/*large=============================================================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {}
+
+
+/*extra large======================================================================================================*/
+
+@media only screen and (min-width: 1200px) {
+    body{
+        margin:0;
+        padding:0;
+        background-color: rgb(49, 49, 49);
+    }
+    .navbar{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .logo_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:20px;
+    }
+    .navbar_logo{
+        height: 60px;
+    }
+    .navbar_block{
+        width: 400px;
+    }
+    .menu_links{
+        display:flex;
+        flex-direction:row;
+        flex-grow:1;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    .home_page,.contact_page,.log_out{
+        width: 100px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        box-sizing: border-box;
+    }
+    .display_block{
+        width: 200px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu_icon{
+        display: none;
+    }
+    .search_container{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        margin-left:30px;
+    }
+    .search_box{
+        width: 500px;
+        height: 30px;
+        border-radius: 5px;
+        border:none;
+        outline:none;
+        padding:0 15px;
+        box-sizing: border-box;
+        background:#444;
+        color: #fff;
+    }
+    .search_button{
+        background:rgb(230, 135, 10);
+        font-size: 21px;
+        margin-left: 10px;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        height:30px;
+    }
+    .search_button:hover{
+        background:rgba(231, 137, 15, 0.726);
+        outline: none;
+        cursor:pointer;
+    }
+    .home_page:hover{
+        background-color: rgb(214, 214, 214);
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+    }
+    .contact_page:hover{
+        background-color:rgb(214, 214, 214) ;
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+    }
+    .log_out:hover{
+        background-color:rgb(214, 214, 214) ;
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+    }
+}
+
+
+
