@@ -1,0 +1,135 @@
+.post_container{
+width: 800px;
+margin: auto;
+padding-top: 10px;
+display: flex;
+background: #fff;
+flex-direction: column;
+font-family: Calibri;
+font-weight: bold;
+color: rgb(43, 41, 41);
+align-items: center;
+}
+.create_post{
+    width: 400px;
+    height: 680px;
+    border-radius: 5px;
+    background: rgb(192, 192, 211);
+}
+.label{
+    width: 95%;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background: rgb(192, 192, 211);
+}
+.p_c_email{
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 40px;
+    padding-left: 20px;
+    border:1px solid rgb(141, 140, 175);
+    outline:none;
+}
+.label_2{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background: rgb(192, 192, 211);
+}
+.privacy_select{
+    width: 100%;
+    height: 40px;
+    border:1px solid rgb(141, 140, 175);
+    outline:none;
+    padding-left: 20px;
+}
+.op{
+    width: 100%;
+    height: 40px;
+    border:1px solid rgb(141, 140, 175);
+    outline:none;
+    padding-left: 20px;
+}
+.text_area{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    border:1px solid rgb(141, 140, 175);
+    outline:none;
+}
+.form_group{
+    margin-bottom: 40px;
+}
+.custom_file{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.row{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.btn{
+    width: 80px;
+    line-height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn_post{
+    width: 60px;
+    border-radius: 5px;
+    background: rgb(29, 65, 226);
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.btn_post:hover{
+    background: rgb(22, 49, 170);
+}
+.msg_box{
+    margin-top: 70px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.msg_container{
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:#fff;
+}
+.hdr{
+    width: 365px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Calibri;
+    border-radius: 2px;
+    background: rgb(80, 212, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: rgb(80, 212, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
